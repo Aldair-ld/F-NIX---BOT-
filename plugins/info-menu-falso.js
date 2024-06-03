@@ -118,7 +118,7 @@ https://whatsapp.com/channel/0029VafZvB6J3jv3qCnqNu3x
 ├➽ *📃Experiencia:* ${exp}
 ├➽ *🛡Rango:* ${role}
 ├➽ *💎Diamantes:* ${limit}
-├➽ *🧑🏻‍💻𝙼𝚎𝚗𝚌𝚑𝚊-Coins:* ${money}
+├➽ *🧑🏻‍💻Fenix-Coins:* ${money}
 ├➽ *💵dolares:* ${joincount}
 ├➽ ${lenguajeCD['smsBotonM7']().charAt(0).toUpperCase() + lenguajeCD['smsBotonM7']().slice(1).toLowerCase()} »* ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
 ╰───────────────╯
