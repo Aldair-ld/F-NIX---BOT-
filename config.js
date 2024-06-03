@@ -99,7 +99,7 @@ global.moment = moment
 global.official = [
 ["519250155289", 'Aldair ofc', 1], 
 ["51925015528", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["51996416792", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+["51925015528", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["51925015528", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["51925015528", 'Soporte', 1]]
 
@@ -122,13 +122,13 @@ global.vsJB = "3.0"
 global.gt = "𝙵𝙴𝙽𝙸𝚇 - 𝙱𝙾𝚃"
 
 global.canalofc = "https://whatsapp.com/channel/0029VaWZeyJJENxvi5Q6OQ2q"
-global.yt = "https://youtube.com/@wilmer.oficial"
+global.yt = "https://youtube.com/@l"
 global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s"
 global.ig = "https://www.instagram.com/cmwilmer4"
 global.md = "https://github.com/Aldair013/Bill-Bot"
 global.fb = "https://www.facebook.com/groups/1039865800178898/?ref=share"
-global.tk = "https://www.tiktok.com/@wilsmac4"
-global.ths = "https://www.threads.net/@cmwilmer4"
+global.tk = "https://www.tiktok.com/@"
+global.ths = "https://www.threads.net/@"
 global.paypal = 'https://paypal.me/'
 global.asistencia = 'https://wa.me/message/C45GXBEFTPONE1' //Contacto
 global.bot = 'wa.me/51925015528'
