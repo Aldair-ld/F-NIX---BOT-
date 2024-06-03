@@ -99,7 +99,7 @@ nombreLugar = 'America'
 ciudad = 'Lima'
 }      
             m.react('📚') 
-let menu = `¡HOLA! 👋🏻 • ${fantasy}${conn.user.jid == global.conn.user.jid ? '' : `\n║˚₊·˚₊· ͟͟͞͞➳* *_𝙼𝚎𝚗𝚌𝚑𝚊 - 𝚂𝚎𝚗𝚔𝚞_* 𝑺𝒖𝒃 𝑩𝒐𝒕 ⇢ wa.me/+${global.conn.user.jid.split`@`[0]}`}
+let menu = `¡HOLA! 👋🏻 • ${fantasy}${conn.user.jid == global.conn.user.jid ? '' : `\n║˚₊·˚₊· ͟͟͞͞➳* *_Fenix - Bot_* 𝑺𝒖𝒃 𝑩𝒐𝒕 ⇢ wa.me/+${global.conn.user.jid.split`@`[0]}`}
 ╭「➻❥FENIX - BOT➻❥」
 ┃➯👋🏻 *HOLA: ⁨${taguser}*
 ┃➯📅 *FECHA ACTUAL:* \`${formatDate}\`
