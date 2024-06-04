@@ -8,7 +8,7 @@ let str = `*ESTOS SON LOS GRUPOS OFICIALES DE FENIX - BOT*
 
 ⏤͟͟͞͞★꙲⃝͟🌹 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
  𝐆𝐫𝐮𝐩𝐨 𝐎𝐟𝐢𝐜𝐢𝐚𝐥
-*https://chat.whatsapp.com/CZHOvEJpekOH6qMfwJXTXz*
+*https://chat.whatsapp.com/LErRdiLdyYa7Xq5FwCd2Y4*
 
 ⏤͟͟͞͞★꙲⃝͟🌹 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
 
@@ -18,7 +18,7 @@ let str = `*ESTOS SON LOS GRUPOS OFICIALES DE FENIX - BOT*
 ⏤͟͟͞͞★꙲⃝͟🌹 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
 
 *FENIX - BOT*
-⏤͟͟͞͞★꙲⃝͟🌹 *https://chat.whatsapp.com/CZHOvEJpekOH6qMfwJXTXz*
+⏤͟͟͞͞★꙲⃝͟🌹 *https://chat.whatsapp.com/LErRdiLdyYa7Xq5FwCd2Y4*
 
 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─`
 await conn.sendFile(m.chat, media, 'fantasy.mp4', str, fakemek)}
