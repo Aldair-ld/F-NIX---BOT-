@@ -19,18 +19,12 @@ let username = conn.getName(who)
 let prem = global.prems.includes(who.split`@`[0])
 let sn = createHash('md5').update(who).digest('hex')
 let str =
-`┃ [ 👤 ] USUARIO: ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ' : ''}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ [ ⚛️ ] NUMERO: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ [ ♠ ] ENLACE: wa.me/${who.split`@`[0]}${registered ?'\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ 𝙀𝘿𝘼𝘿 ' + age + ' *años*' : ''}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ [ 💎 ] DIAMANTES: *${limit}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ [ 💮 ] REGISTRADO: (𝘼) ${registered ? '✅': '❎'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃ [ 🔰 ] PREMIUM: ${prem ? '✅' : '❎'}
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+`┃ *[ 👤 ] USUARIO:* ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ' : ''}
+┃ *[ ⚛️ ] NUMERO:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+┃ *[ ♠ ] ENLACE:* wa.me/${who.split`@`[0]}${registered ?'\n
+┃ *[ 💎 ] DIAMANTES:* *${limit}*
+┃ *[ 💮 ] REGISTRADO:* (𝘼) ${registered ? '✅': '❎'}
+┃ *[ 🔰 ] PREMIUM:* ${prem ? '✅' : '❎'}
 ┃ 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙎𝙀𝙍𝙄𝙀
 ┃ *${sn}*`.trim()
     conn.sendFile(m.chat, pp, 'pp.jpg', str, fkontak, false, { contextInfo: { mentionedJid }}) 
