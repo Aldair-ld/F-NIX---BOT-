@@ -21,7 +21,7 @@ let sn = createHash('md5').update(who).digest('hex')
 let str =
 `┃ *[ 👤 ] USUARIO:* ${name} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲᴳᴮ' : ''}
 ┃ *[ ⚛️ ] NUMERO:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-┃ *[ ♠ ] ENLACE:* wa.me/${who.split`@`[0]}${registered ?'\n
+┃ *[ ♠ ] ENLACE:* wa.me/${who.split`@`[0]}${registered ?'\n┃ 𝙀𝘿𝘼𝘿 ' + age + ' *años*' : ''}
 ┃ *[ 💎 ] DIAMANTES:* *${limit}*
 ┃ *[ 💮 ] REGISTRADO:* (𝘼) ${registered ? '✅': '❎'}
 ┃ *[ 🔰 ] PREMIUM:* ${prem ? '✅' : '❎'}
