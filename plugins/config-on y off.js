@@ -529,9 +529,9 @@ ${m.isGroup ? `` : `${lenguajeGB.smsConfi9()}`}
 
 ╰▭ׄ▭ׅ▭ׅ▭ׄ▭ׅ▭ׄ  ✿ໍ ▭ׅ▭ׄ▭ׅ▭ׅ▭ׄ▭ׅ╯
 
-ඬ⃟🌹 ${lenguajeGB.smsParaOw()} ${bot.antiSpam ? '✅' : '❌'}
-ඬ⃟🌹 ${usedPrefix + command} antiSpam
-ඬ⃟🌹 ${lenguajeGB.smsAntiSp2()}
+💮 ${lenguajeGB.smsParaOw()} ${bot.antiSpam ? '✅' : '❌'}
+💮 ${usedPrefix + command} antiSpam
+💮 ${lenguajeGB.smsAntiSp2()}
 
 ╰▭ׄ▭ׅ▭ׅ▭ׄ▭ׅ▭ׄ  ✿ໍ ▭ׅ▭ׄ▭ׅ▭ׅ▭ׄ▭ׅ╯
 
