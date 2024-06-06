@@ -20,7 +20,7 @@ let gata = `
 HABLA CON +51 925 015 528 PARA SABER MAS DEL BOT
 *╚═════════❖•ೋ° °ೋ•❖═════════╝*
 
-*❀❀ೋ═ 𝑩𝒚 𝒘𝒊𝒍𝒎𝒆𝒓 『𝔬𝔣𝔠』═ೋ❀❀*
+
 
 ❖ ── ✦ ──『${vs}』── ✦ ── ❖`
 await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', gata, fkontak, false, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝑭𝒂𝒏𝒕𝒂𝒔𝒚𝑩𝒐𝒕-𝑴𝑫 𝑽1 𝒃𝒚 𝑾𝒊𝒍𝒎𝒆𝒓 𝒐𝒇𝒄', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb.getRandom()}}})}
