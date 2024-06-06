@@ -23,9 +23,9 @@ let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContact
   
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : lenguajeGB.smsContacto3() 
 description = official[0][0] == String(contact[0]) ? 'Fenix -Bot' : official[1][0] == String(contact[0]) ? 'Fenix - Bot' : official[2][0] == String(contact[0]) ? 'Fenix - Bot' : official[3][0] == String(contact[0]) ? 'Fenix - Bot' : desc === '' ? 'Fenix - Bot' : desc
-correo = official[0][0] == String(contact[0]) ? 'Aldair' : official[1][0] == String(contact[0]) ? 'Ricklayer' : official[2][0] == String(contact[0]) ? 'indefinido202@gmail.com' : mail === '' ? lenguajeGB.smsContacto6() : mail
+correo = official[0][0] == String(contact[0]) ? 'Aldair' : official[1][0] == String(contact[0]) ? 'Lobo' : official[2][0] == String(contact[0]) ? 'TikTok: @lobo_editor_' : mail === '' ? lenguajeGB.smsContacto6() : mail
 lugar = official[0][0] == String(contact[0]) ? '🇺🇸 Estados Unidos' : official[1][0] == String(contact[0]) ? '🇺🇸 Estados Unidos' : official[2][0] == String(contact[0]) ? '🇺🇲 Estados Unidos' : official[3][0] == String(contact[0]) ? '🇺🇸 Estados Unidos' : country === '' ? lenguajeGB.smsContacto7() : country
-enlace = official[0][0] == String(contact[0]) ? 'Aldair' : official[1][0] == String(contact[0]) ? 'Ricklayer' : official[2][0] == String(contact[0]) ? 'Aldair' : official[3][0] == String(contact[0]) ? 'Aldair' : md 
+enlace = official[0][0] == String(contact[0]) ? 'Aldair' : official[1][0] == String(contact[0]) ? 'Lobo' : official[2][0] == String(contact[0]) ? 'Aldair' : official[3][0] == String(contact[0]) ? 'Aldair' : md 
    
 lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/Aldair' : null]) }  
 lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), fantasy, lenguajeGB.smsContacto8(), mail === '' ? 'aldair68@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
